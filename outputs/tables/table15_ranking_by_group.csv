@@ -1,0 +1,8 @@
+Attribute,Group,Students (sample),Jaccard@10 with overall ranking
+gender,F,883,0.8181818181818182
+gender,M,1117,1.0
+age_band,0-35,1378,1.0
+age_band,35-55,608,1.0
+imd_group,Least deprived (70-100%),539,0.8181818181818182
+imd_group,Middle (30-70%),754,1.0
+imd_group,Most deprived (0-30%),637,0.6666666666666666

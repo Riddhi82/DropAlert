@@ -1,0 +1,4 @@
+Model,True neg,False pos,False neg,True pos
+Logistic Regression,3045,1410,414,643
+Random Forest,2805,1650,357,700
+LightGBM,3168,1287,444,613

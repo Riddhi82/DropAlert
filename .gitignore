@@ -1,0 +1,23 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Secrets and local config
+.env
+*.key
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Large raw OULAD click table (454 MB) - never commit
+data/studentVle.csv
+data/*.bz2
+data/*.gz
+
+# Uploaded files are held in memory only; nothing to ignore there

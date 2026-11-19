@@ -1,0 +1,4 @@
+Attribute,Groups compared,TPR gap,FPR gap,Equalised-odds gap,Gap 95% CI (bootstrap),Permutation p,Gap larger than chance?
+gender,"F, M",0.15733821192297742,0.13456088110784242,0.15733821192297742,"[0.13, 0.22]",0.0,Yes
+age_band,"0-35, 35-55",0.07751497950173447,0.11070009829410296,0.11070009829410296,"[0.08, 0.15]",0.0,Yes
+imd_group,"Least deprived (70-100%), Middle (30-70%), Most deprived (0-30%), Unknown",0.2305481874447392,0.16834354546720512,0.2305481874447392,"[0.15, 0.41]",0.004,Yes

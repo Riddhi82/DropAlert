@@ -1,0 +1,109 @@
+{
+  "risk_set": 27522,
+  "dropout_rate": 0.1855243078264661,
+  "n_all": 32593,
+  "n_left_by_28": 5055,
+  "share_withdrawn_left_by_28": 0.496947617172115,
+  "train_rows": 22010,
+  "test_rows": 5512,
+  "features": [
+    "clicks_total",
+    "active_days",
+    "clicks_prestart",
+    "first_access_day",
+    "days_since_last_access",
+    "click_trend",
+    "clicks_forum",
+    "n_submitted",
+    "date_registration",
+    "num_of_prev_attempts",
+    "studied_credits",
+    "edu_ord",
+    "imd_ord",
+    "disability_bin",
+    "module_AAA",
+    "module_BBB",
+    "module_CCC",
+    "module_DDD",
+    "module_EEE",
+    "module_FFF",
+    "module_GGG"
+  ],
+  "variables": [
+    "clicks_total",
+    "active_days",
+    "clicks_prestart",
+    "first_access_day",
+    "days_since_last_access",
+    "click_trend",
+    "clicks_forum",
+    "n_submitted",
+    "date_registration",
+    "num_of_prev_attempts",
+    "studied_credits",
+    "edu_ord",
+    "imd_ord",
+    "disability_bin",
+    "code_module"
+  ],
+  "test_metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.6690856313497823,
+      "Precision": 0.31320019483682415,
+      "Recall": 0.6083254493850521,
+      "F1": 0.4135048231511254,
+      "ROC-AUC": 0.6938220637999888,
+      "PR-AUC": 0.35345954547201164
+    },
+    "Random Forest": {
+      "Accuracy": 0.6358853410740203,
+      "Precision": 0.2978723404255319,
+      "Recall": 0.6622516556291391,
+      "F1": 0.4109186968007044,
+      "ROC-AUC": 0.6979872306583124,
+      "PR-AUC": 0.3706681516478702
+    },
+    "LightGBM": {
+      "Accuracy": 0.6859579100145138,
+      "Precision": 0.32263157894736844,
+      "Recall": 0.5799432355723746,
+      "F1": 0.41460940142035846,
+      "ROC-AUC": 0.7051468113278269,
+      "PR-AUC": 0.3795815625402254
+    }
+  },
+  "thresholds": {
+    "Logistic Regression": 0.19151275214142124,
+    "Random Forest": 0.17877214210072664,
+    "LightGBM": 0.20320965716665543
+  },
+  "brier": {
+    "Logistic Regression": 0.14273281612601982,
+    "Random Forest": 0.14174306038750753,
+    "LightGBM": 0.14054230634340106
+  },
+  "ece": {
+    "Logistic Regression": 0.012594362343081983,
+    "Random Forest": 0.00983561014512407,
+    "LightGBM": 0.008659540282177233
+  },
+  "pair_share": 0.43129434605822947,
+  "added_value": [
+    {
+      "index": "ROC-AUC",
+      "Additive": 0.6788530551410551,
+      "Full": 0.6860595049874053,
+      "Gain from interactions": 0.007206449846350216,
+      "95% CI (student bootstrap)": "[+0.0038, +0.0108]",
+      "CI excludes 0?": "Yes"
+    },
+    {
+      "index": "PR-AUC",
+      "Additive": 0.329834032707609,
+      "Full": 0.34604440991426233,
+      "Gain from interactions": 0.016210377206653304,
+      "95% CI (student bootstrap)": "[+0.0102, +0.0219]",
+      "CI excludes 0?": "Yes"
+    }
+  ]
+}

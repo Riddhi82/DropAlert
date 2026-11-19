@@ -1,0 +1,4 @@
+Comparison,Delta ROC-AUC,95% CI,Clear difference?
+LightGBM - Logistic Regression,0.011324747527838075,"[0.003, 0.019]",Yes
+LightGBM - Random Forest,0.007159580669514498,"[0.001, 0.013]",Yes
+Random Forest - Logistic Regression,0.004165166858323577,"[-0.004, 0.012]",No

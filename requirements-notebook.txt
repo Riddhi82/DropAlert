@@ -1,0 +1,4 @@
+# Only needed to re-run the research notebook (SDP_Early_Warning_Pipeline.ipynb). The web app does not need these.
+-r requirements.txt
+matplotlib>=3.8
+jupyter

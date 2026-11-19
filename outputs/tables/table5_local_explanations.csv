@@ -1,0 +1,4 @@
+Student,Predicted risk,Actual dropout,"Top 3 reasons (SHAP, log-odds)"
+Highest predicted risk,0.66,0,studied_credits (+0.70); code_module (+0.44); n_submitted (+0.38)
+Median predicted risk,0.16,0,code_module (+0.36); days_since_last_access (-0.13); edu_ord (-0.11)
+Lowest predicted risk,0.02,0,n_submitted (-0.57); active_days (-0.51); clicks_total (-0.48)

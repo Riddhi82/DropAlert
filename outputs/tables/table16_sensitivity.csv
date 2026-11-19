@@ -1,0 +1,9 @@
+Cohort,Fail,Features,Students,Dropout rate,Grouped-CV ROC-AUC
+All enrolments (includes students who already left),removed,Original 8 features,25541,0.397635174816961,0.7988579076385633
+All enrolments (includes students who already left),removed,Final features (this study),25541,0.397635174816961,0.8664929728666984
+All enrolments (includes students who already left),counted as not dropout,Original 8 features,32593,0.3116006504464149,0.74473169968029
+All enrolments (includes students who already left),counted as not dropout,Final features (this study),32593,0.3116006504464149,0.8200223919609801
+Still registered at day 28 (this study),removed,Original 8 features,20485,0.24925555284354406,0.6710872299372428
+Still registered at day 28 (this study),removed,Final features (this study),20485,0.24925555284354406,0.7571036455137303
+Still registered at day 28 (this study),counted as not dropout,Original 8 features,27522,0.1855243078264661,0.6009008423631712
+Still registered at day 28 (this study),counted as not dropout,Final features (this study),27522,0.1855243078264661,0.6930984785642172

@@ -1,0 +1,6 @@
+Objective,What was delivered,Key result,Main caveat
+O1,"Three models built and compared on six metrics, with CIs, calibration, curves, ranking",Best: LightGBM (ROC-AUC 0.705); models differ by only 0.011 AUC,Moderate discrimination; honest day-28 risk set
+O2,"First-order SHAP on held-out students, with CIs, directions and local examples","Top 3: code_module, studied_credits, n_submitted",SHAP is not causal; module partly reflects course design
+O3,"SHAP interaction values, pair ranking, added-value test against an additive model","Top pair: n_submitted x code_module; gain ROC-AUC +0.0072 (CI [+0.0038, +0.0108])",Interactions are measurable; predictive gain is small
+O4,"Stability across seeds, presentations, cut-offs and time versus chance",Seeds: J=0.69; Presentations: J=0.36; Cut-off day: J=0.44; Time: J=0.51,Few runs on cut-off and time axes
+O5,"Fairness by gender, age, IMD with CIs and permutation tests; interactions by group",gender: gap 0.16; age_band: gap 0.11; imd_group: gap 0.23,Small groups flagged; IMD sensitivity run included
